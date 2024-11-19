@@ -1,0 +1,62 @@
+/* 全体的なスタイル */
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  /* 画像のスタイル */
+  img {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* 得点表示のスタイル */
+  h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+  }
+  
+  /* プルダウンメニューのスタイル */
+  select {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%233498db%22%20d%3D%22M7.41%207.84L12%2012.42l4.59-4.58L18%209l-6%206-6-6z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px 16px;
+  }
+  
+  /* ボタンのスタイル */
+  button {
+    margin: 1rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:first-of-type {
+    background-color: #2ecc71; /* 緑色 */
+    color: white;
+  }
+  
+  button:nth-of-type(2) {
+    background-color: #3498db; /* 青色 */
+    color: white;
+  }
+  
+  button:last-of-type {
+    background-color: #e74c3c; /* 赤色 */
+    color: white;
+  }
